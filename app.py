@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler,LabelEncoder
 import pickle
 import os
 
-os.chdir(r'V:\DataScience\Main Projects\Deep Learning Projects\ANN_Bank')
+
 
 #loading the train model
 model = tf.keras.models.load_model('model.h5')
